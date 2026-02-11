@@ -39,11 +39,16 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+
     'rest_framework',
     "products.apps.ProductsConfig",
+
     "users.apps.UsersConfig",
+
     "authtokens.apps.AuthTokensConfig",
     "rest_framework_simplejwt.token_blacklist",
+
+    "chatroom.apps.ChatroomConfig",
 ]
 
 MIDDLEWARE = [
